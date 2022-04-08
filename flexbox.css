@@ -121,4 +121,75 @@ ul {
 }
 
 
+.section-titre {
+    text-align: center;
+}
+
+.section-titre h4 {
+    font-size: 40px;
+}
+
+.espace-services {
+    background-color: #f4f4f4;
+    
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.service-seul {
+    width: 30%;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.service-seul h4 {
+    text-align: center;
+    background-color: teal;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+} 
+
+.service-seul img {
+    width: 100%;
+    
+}
+
+.service-seul a {
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    transition: .3s;
+    
+}
+
+.service-seul a:hover {
+    background-color: teal;
+}
+
+.gallerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+
+.gallerie-img {
+    width: 24%;
+    
+}
+
+.gallerie-img img {
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #ddd;
+    
+}
 
