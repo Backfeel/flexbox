@@ -193,3 +193,15 @@ ul {
     
 }
 
+
+.espace-footer {
+    background-color: teal;
+    padding: 10px 0;
+    
+}
+
+
+.espace-footer p{
+    text-align: center;
+    color: #fff;
+}
