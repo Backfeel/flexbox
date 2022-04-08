@@ -68,3 +68,57 @@ ul {
     border-radius: 10px;
     border: solid 1px #f4f4f4;
 }
+
+.titre-a-propos {
+    text-align: center;
+}
+.titre-a-propos h4 {
+    text-transform: capitalize;
+    font-size: 30px;
+    
+}
+
+.titre-a-propos p {
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.espace-a-propos {
+    padding: 30px 0;
+}
+
+.a-propos {
+    display: flex;
+    justify-content:space-between;
+}
+
+.a-propos-seul {
+    border: solid 1px #ddd;
+    flex-basis: 30%;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.a-propos-seul:hover {
+    border-color: tomato;
+}
+
+.a-propos-seul h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.a-propos-seul i {
+    border: solid 1px #ddd;
+    padding: 10px;
+    font-size: 20px;
+    color: tomato;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+
+
